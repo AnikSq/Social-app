@@ -1,0 +1,150 @@
+*,
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  border: 2px solid #4263eb;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate {
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.postWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.postCenter {
+  margin: 20px 0;
+}
+
+.postText {
+  margin: 0 10px;
+}
+
+.postImg {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.postText {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.postImg {
+  margin-top: 0px;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.likeIcon {
+  display: flex;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  border: none;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.icon {
+  transition: 0.3s all;
+}
+
+.likeIcon:hover .icon {
+  color: #1864ab;
+}
+
+.postLikeCounter {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.postCommentText {
+  cursor: pointer;
+  border-bottom: 1px solid rgb(192, 189, 189);
+  transition: 0.3s all;
+}
+
+.rightbarFriend {
+  z-index: -1;
+}
+
+.postCenter {
+  margin-top: 0px;
+}
+
+.addMarginBottom {
+  margin-bottom: 15px;
+}
+
+.postTop {
+  margin-bottom: 15px;
+}
+
+.postLikeCounter {
+  cursor: pointer;
+  margin-left: 12px;
+  border-bottom: 2px solid rgb(192, 189, 189);
+  transition: 0.3s all;
+  margin-top: 1px;
+}
+
+.postLikeCounter:hover {
+  color: #4d4d4d;
+}
+
+.postCommentText:hover {
+  color: #4d4d4d;
+}
